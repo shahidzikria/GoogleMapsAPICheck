@@ -1,5 +1,5 @@
 
-
+import { Text, View } from "react-native"
 export default class Test extends Component {
 
     render() {
@@ -7,6 +7,7 @@ export default class Test extends Component {
             <View
                 style={{ flex: 1 }}
             >
+                <Text></Text>
             </View >
         )
     }
