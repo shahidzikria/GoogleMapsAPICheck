@@ -113,8 +113,8 @@ export default class App extends Component {
           }}
           // showsUserLocation={true}
           userInterfaceStyle={"light"}
-        //showsTraffic={true}
-        // showsCompass={true}
+          //showsTraffic={true}
+          showsCompass={true}
         >
 
 
