@@ -7,8 +7,6 @@ import { check, PERMISSIONS, RESULTS, request, openSettings } from 'react-native
 // MapView
 import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps';
 
-// search maps
-import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 
 
 
