@@ -4,10 +4,11 @@ import { View, Text, StyleSheet } from "react-native";
 // Permisions 
 import { check, PERMISSIONS, RESULTS, request, openSettings } from 'react-native-permissions';
 
+// MapView
+import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps';
+import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 
-
-
-
+import Test from "./Test"
 
 export default class App extends Component {
 
@@ -79,7 +80,7 @@ export default class App extends Component {
       <View
         style={{ flex: 1 }}
       >
-
+        <Test />
         <MapView
           style={styles.map}
           provider={PROVIDER_GOOGLE}
