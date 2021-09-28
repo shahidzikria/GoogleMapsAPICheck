@@ -6,8 +6,6 @@ import { check, PERMISSIONS, RESULTS, request, openSettings } from 'react-native
 
 
 
-// search maps
-import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 
 
 
@@ -110,7 +108,7 @@ export default class App extends Component {
             latitudeDelta: 0.015,
             longitudeDelta: 0.0121,
           }}
-          showsUserLocation={true}
+          // showsUserLocation={true}
           userInterfaceStyle={"light"}
           //showsTraffic={true}
           showsCompass={true}
